@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Cart - Restaurant</title>
+</head>
+<body>
+    <!-- ---------------------------------------
+                    NAVBAR START  
+    -------------------------------------------->
+    <header class="bg-dark z-1">
+        <div class="max-w-[1200px] mx-auto flex items-center px-4 py-2 text-white relative">
+            <button id="hamburger" class="mr-2 md:hidden">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <a class="flex-grow mt-2" href="#">
+                <img class="h-10" src="./images/logo.png" alt="Brand Logo">
+            </a>
+            <nav id="menu" class="absolute md:static md:z-0 md:w-auto md:flex-grow bg-dark w-full bottom-0 z-[-1] pb-2 left-0">
+                <ul class="md:flex">
+                    <li><a class="px-4 py-2 block active" href="#">Home</a></li>
+                    <li><a class="px-4 py-2 block" href="#">Menu</a></li>
+                    <li><a class="px-4 py-2 block" href="#">Blog</a></li>
+                    <li><a class="px-4 py-2 block" href="#">About Us</a></li>
+                    <li><a class="px-4 py-2 block" href="#">Careers</a></li>
+                </ul>
+            </nav>
+            <div class="flex items-center gap-4">
+                <a href="#">
+                    <i class="fa-regular fa-user"></i> Login
+                </a>
+                <a class="border px-4 py-1 rounded-full" href="#">
+                    Sign Up
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- ---------------------------------------
+                    CONTENT START  
+    -------------------------------------------->
+    <main>
+        <section class="py-10">
+            <div class="w-full max-w-[1200px] mx-auto">
+                <a href="" class="inline-block px-6 py-2 border border-orange hover:bg-orange hover:text-white transition rounded-full text-orange">
+                    <i class="fa-solid fa-arrow-left-long mr-2"></i>
+                    Back to Home
+                </a>
+                <div class="grid md:grid-cols-2 items-center mt-10 gap-10">
+                    <img src="./images/pizza.jpg" alt="" class="w-full max-h-[350px] object-cover">
+                    <div class="px-4">
+                        <img src="./images/logo.png" alt="" class="hidden md:block h-16">
+                        <h1 class="font-bold text-4xl mb-2 md:text-[40px]">Product Name Here</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias rerum eos velit adipisci natus rem, distinctio cum nam maxime exercitationem, eius unde at quae. Adipisci voluptatem optio aspernatur officiis omnis.</p>
+                        <p class="font-bold text-xl text-slate-600 mt-2">Prouduct Charge : <span class="text-orange">370TK</span></p>
+                        <a href="" class="inline-block px-6 py-2 bg-orange text-white rounded-full mt-4 mr-2">
+                            <i class="fa-solid fa-cart-shopping mr-2"></i>
+                            Add to Cart
+                        </a>
+                        <a href="" class="inline-block px-6 py-2 border border-orange text-orange rounded-full mt-4 hover:bg-orange hover:text-white transition">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-[#F5F5F5] py-10">
+            <div class="w-full max-w-[1200px] mx-auto px-4">
+                <h2 class="font-bold text-2xl">Review &#x28;142&#41;</h2>
+                <div class="max-w-[700px] mt-10">
+                    <div class="flex justify-between">
+                        <div class="flex gap-3 items-center">
+                            <img src="" alt="" class=" h-10 w-10 rounded-full border-transparent bg-[#D9D9D9]">
+                            <div>
+                                <h2 class="font-bold">Dwip Sarker</h2>
+                                <p class="text-sm">27/07/2027</p>
+                            </div>
+                        </div>
+                        <div class="mb-2 text-sm text-orange">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="mt-2 text-slate-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam maiores id cumque nulla ut expedita, velit tempore sequi blanditiis! Cupiditate maiores sed sint reiciendis eius rerum inventore perferendis. Voluptate, debitis.</p>
+                </div>
+                <div class="max-w-[700px] mt-10">
+                    <div class="flex justify-between">
+                        <div class="flex gap-3 items-center">
+                            <img src="" alt="" class=" h-10 w-10 rounded-full border-transparent bg-[#D9D9D9]">
+                            <div>
+                                <h2 class="font-bold">Dwip Sarker</h2>
+                                <p class="text-sm">27/07/2027</p>
+                            </div>
+                        </div>
+                        <div class="mb-2 text-sm text-orange">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="mt-2 text-slate-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam maiores id cumque nulla ut expedita, velit tempore sequi blanditiis! Cupiditate maiores sed sint reiciendis eius rerum inventore perferendis. Voluptate, debitis.</p>
+                </div>
+                <div class="max-w-[700px] mt-10">
+                    <div class="flex justify-between">
+                        <div class="flex gap-3 items-center">
+                            <img src="" alt="" class=" h-10 w-10 rounded-full border-transparent bg-[#D9D9D9]">
+                            <div>
+                                <h2 class="font-bold">Dwip Sarker</h2>
+                                <p class="text-sm">27/07/2027</p>
+                            </div>
+                        </div>
+                        <div class="mb-2 text-sm text-orange">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="mt-2 text-slate-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam maiores id cumque nulla ut expedita, velit tempore sequi blanditiis! Cupiditate maiores sed sint reiciendis eius rerum inventore perferendis. Voluptate, debitis.</p>
+                </div>
+                
+
+            </div>
+            
+        </section>
+    </main>
+
+    <!-- ---------------------------------------
+                    FOOTER START  
+    -------------------------------------------->
+    <footer class="bg-dark">
+        <div class="max-w-[1200px] md:flex md:gap-10 mx-auto px-4 text-white relative py-10">
+            <div class="mb-5 md:max-w-96">
+                <h2 class="font-bold text-2xl"><span class="text-orange">FOOD</span>HOUSE</h2>
+                <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque aliquid alias quod enim? Adipisci sit tenetur cumque labore molestiae vel temporibus eligendi blanditiis corrupti ipsum voluptate, laudantium odit dignissimos eveniet.</p>
+            </div>
+            <nav class="flex flex-wrap justify-between md:flex-grow">
+                <div class="w-1/3 md:w-1/4 mb-4">
+                    <h3 class="text-orange font-bold">Product</h3>
+                    <ul>
+                        <li><a class="py-1 block hover:text-orange transition" href="#">Menu</a></li>
+                        <li><a class="py-1 block hover:text-orange transition" href="#">Category</a></li>
+                        <li><a class="py-1 block hover:text-orange transition" href="#">Reviews</a></li>
+                    </ul>
+                </div>
+                <div class="w-1/3 md:w-1/4 mb-4">
+                    <h3 class="text-orange font-bold">Company</h3>
+                    <ul>
+                        <li><a class="py-1 block hover:text-orange transition" href="#">About</a></li>
+                        <li><a class="py-1 block hover:text-orange transition" href="#">Careers</a></li>
+                        <li><a class="py-1 block hover:text-orange transition" href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="w-1/3 md:w-1/4 mb-4">
+                    <h3 class="text-orange font-bold ">Support</h3>
+                    <ul>
+                        <li><a class="py-1 block hover:text-orange transition" href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="w-full md:w-1/4 flex flex-col justify-start">
+                    <h3 class="text-orange font-bold">Reach us</h3>
+                    <ul class="flex gap-4">
+                        <li>
+                            <a class="py-1 block hover:text-orange" href="#">
+                                <i class="fa-brands fa-facebook transition"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="py-1 block hover:text-orange" href="#">
+                                <i class="fa-brands fa-instagram transition"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="py-1 block hover:text-orange" href="#">
+                                <i class="fa-brands fa-twitter transition"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="py-1 block hover:text-orange" href="#">
+                                <i class="fa-brands fa-youtube transition"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="py-5 bg-light-dark">
+            <div class="max-w-[1200px] mx-auto flex justify-center items-center text-white">
+                <p>Developed By <a href="#">Remesoft</a> @ 2023</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ---------------------------------------
+                    SCRIPTS START  
+    -------------------------------------------->
+    <script src="js/script.js"></script>
+</body>
+</html>
