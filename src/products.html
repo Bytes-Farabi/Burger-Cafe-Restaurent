@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Products - Restaurant</title>
 </head>
+
 <body>
-    <!-- ---------------------------------------
-                    NAVBAR START  
-    -------------------------------------------->
+    <!-- nav -->
     <header class="bg-dark z-1">
         <div class="max-w-[1200px] mx-auto flex items-center px-4 py-2 text-white relative">
             <button id="hamburger" class="mr-2 md:hidden">
@@ -19,7 +21,8 @@
             <a class="flex-grow mt-2" href="#">
                 <img class="h-10" src="./images/logo.png" alt="Brand Logo">
             </a>
-            <nav id="menu" class="absolute md:static md:z-0 md:w-auto md:flex-grow bg-dark w-full bottom-0 z-[-1] pb-2 left-0">
+            <nav id="menu"
+                class="absolute md:static md:z-0 md:w-auto md:flex-grow bg-dark w-full bottom-0 z-[-1] pb-2 left-0">
                 <ul class="md:flex">
                     <li><a class="px-4 py-2 block active" href="index.html">Home</a></li>
                     <li><a class="px-4 py-2 block" href="category.html">Menu</a></li>
@@ -41,151 +44,220 @@
 
     </header>
 
-    <!-- ---------------------------------------
-                    CONTENT START  
-    -------------------------------------------->
+    <!-- top food-->
     <main class="my-20">
-        <div class="max-w-[1200px] mx-auto">
-            <h1 class="px-4 font-bold text-3xl">Top Food.</h1>
-            <section class="grid grid-cols-1 px-4 md:grid-cols-2 lg:grid-cols-3  gap-10 mt-7">
+        <section class="px-4 mt-16">
+            <h1 class="font-bold text-3xl mb-10">Top Food.</h1>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
                 <div class="p-4 border rounded-[10px] hover:shadow-lg transition">
-                    <img src="" alt="" class="h-52 bg-gray-200 rounded-[6px]">
+                    <img src="https://i.ibb.co.com/6b84rLj/sand.jpg" alt=""
+                        class=" w-full h-52 bg-gray-200 rounded-[6px]">
                     <div class="flex items-center justify-between mt-2">
                         <div>
-                            <h3 class="font-bold text-lg">Food Name Here</h3>
-                            <h3>Food Details Here</h3>
+                            <h3 class="font-bold text-lg">Sandwitches</h3>
+                            <h3>A sandwich is a convenient fast food option made with various fillings between slices of
+                                bread. It’s popular for its portability and quick preparation. Delicious and versatile,
+                                sandwiches can satisfy a range of tastes.</h3>
                         </div>
                         <i class="fa-regular fa-heart text-2xl px-5 text-gray-300 "></i>
                     </div>
                     <div class="flex items-center gap-2 mt-4">
-                        <a href="" class="text-orange  font-bold border hover:bg-orange hover:text-white transition border-orange rounded-[5px] text-center p-2 flex-grow ">$10 / Buy Now</a>
-                        <a href="" class="bg-orange block text-white px-6 py-2 rounded-[5px] hover:bg-[#f0621b] transition" ><i class="fa-solid fa-cart-shopping"></i></a>
+                        <a href=""
+                            class="text-orange  font-bold border hover:bg-orange hover:text-white transition border-orange rounded-[5px] text-center p-2 flex-grow ">$10
+                            / Buy Now</a>
+                        <a href=""
+                            class="bg-orange block text-white px-6 py-2 rounded-[5px] hover:bg-[#f0621b] transition"><i
+                                class="fa-solid fa-cart-shopping"></i></a>
                     </div>
                 </div>
                 <div class="p-4 border rounded-[10px] hover:shadow-lg transition">
-                    <img src="" alt="" class="h-52 bg-gray-200 rounded-[6px]">
+                    <img src="https://i.ibb.co.com/t2nZWBw/salad.jpg" alt=""
+                        class="w-full h-52 bg-gray-200 rounded-[6px]">
                     <div class="flex items-center justify-between mt-2">
                         <div>
-                            <h3 class="font-bold text-lg">Food Name Here</h3>
-                            <h3>Food Details Here</h3>
+                            <h3 class="font-bold text-lg">Salad</h3>
+                            <h3>A salad is a fresh and healthy dish typically made with a mix of vegetables, fruits, and
+                                often proteins like meat or cheese. It’s a light meal option that can be customized to
+                                suit various tastes and dietary needs. Nutritious and refreshing, salads are perfect for
+                                any time of day.</h3>
                         </div>
                         <i class="fa-regular fa-heart text-2xl px-5 text-gray-300 "></i>
                     </div>
                     <div class="flex items-center gap-2 mt-4">
-                        <a href="" class="text-orange  font-bold border hover:bg-orange hover:text-white transition border-orange rounded-[5px] text-center p-2 flex-grow ">$10 / Buy Now</a>
-                        <a href="" class="bg-orange block text-white px-6 py-2 rounded-[5px] hover:bg-[#f0621b] transition" ><i class="fa-solid fa-cart-shopping"></i></a>
+                        <a href=""
+                            class="text-orange  font-bold border hover:bg-orange hover:text-white transition border-orange rounded-[5px] text-center p-2 flex-grow ">$10
+                            / Buy Now</a>
+                        <a href=""
+                            class="bg-orange block text-white px-6 py-2 rounded-[5px] hover:bg-[#f0621b] transition"><i
+                                class="fa-solid fa-cart-shopping"></i></a>
                     </div>
                 </div>
                 <div class="p-4 border rounded-[10px] hover:shadow-lg transition">
-                    <img src="" alt="" class="h-52 bg-gray-200 rounded-[6px]">
+                    <img src="https://i.ibb.co.com/p2z7zX5/crispy-comte-cheesburgers-FT-RECIPE0921-6166c6552b7148e8a8561f7765ddf20b.jpg"
+                        alt="" class="w-fullh-52 bg-gray-200 rounded-[6px]">
                     <div class="flex items-center justify-between mt-2">
                         <div>
-                            <h3 class="font-bold text-lg">Food Name Here</h3>
-                            <h3>Food Details Here</h3>
+                            <h3 class="font-bold text-lg">Burger</h3>
+                            <h3>A burger is a popular fast food item consisting of a cooked patty, usually made of beef,
+                                served in a bun with various toppings like lettuce, tomatoes, and cheese. It’s loved for
+                                its satisfying combination of flavors and textures. Delicious and filling, burgers are a
+                                classic choice for a quick meal.</h3>
                         </div>
                         <i class="fa-regular fa-heart text-2xl px-5 text-gray-300 "></i>
                     </div>
                     <div class="flex items-center gap-2 mt-4">
-                        <a href="" class="text-orange  font-bold border hover:bg-orange hover:text-white transition border-orange rounded-[5px] text-center p-2 flex-grow ">$10 / Buy Now</a>
-                        <a href="" class="bg-orange block text-white px-6 py-2 rounded-[5px] hover:bg-[#f0621b] transition" ><i class="fa-solid fa-cart-shopping"></i></a>
+                        <a href=""
+                            class="text-orange  font-bold border hover:bg-orange hover:text-white transition border-orange rounded-[5px] text-center p-2 flex-grow ">$10
+                            / Buy Now</a>
+                        <a href=""
+                            class="bg-orange block text-white px-6 py-2 rounded-[5px] hover:bg-[#f0621b] transition"><i
+                                class="fa-solid fa-cart-shopping"></i></a>
                     </div>
                 </div>
                 <div class="p-4 border rounded-[10px] hover:shadow-lg transition">
-                    <img src="" alt="" class="h-52 bg-gray-200 rounded-[6px]">
+                    <img src="https://i.ibb.co.com/TrGDdFJ/soups.jpg" alt=""
+                        class="w-full h-52 bg-gray-200 rounded-[6px]">
                     <div class="flex items-center justify-between mt-2">
                         <div>
-                            <h3 class="font-bold text-lg">Food Name Here</h3>
-                            <h3>Food Details Here</h3>
+                            <h3 class="font-bold text-lg">Soups</h3>
+                            <h3>Soup is a warm and comforting dish made by combining ingredients like vegetables, meats,
+                                and grains in a flavorful liquid. It’s versatile and can be served as a starter or a
+                                main course, perfect for any season. Nourishing and easy to prepare, soup offers a
+                                delightful way to enjoy a variety of flavors.</h3>
                         </div>
                         <i class="fa-regular fa-heart text-2xl px-5 text-gray-300 "></i>
                     </div>
                     <div class="flex items-center gap-2 mt-4">
-                        <a href="" class="text-orange  font-bold border hover:bg-orange hover:text-white transition border-orange rounded-[5px] text-center p-2 flex-grow ">$10 / Buy Now</a>
-                        <a href="" class="bg-orange block text-white px-6 py-2 rounded-[5px] hover:bg-[#f0621b] transition" ><i class="fa-solid fa-cart-shopping"></i></a>
+                        <a href=""
+                            class="text-orange  font-bold border hover:bg-orange hover:text-white transition border-orange rounded-[5px] text-center p-2 flex-grow ">$10
+                            / Buy Now</a>
+                        <a href=""
+                            class="bg-orange block text-white px-6 py-2 rounded-[5px] hover:bg-[#f0621b] transition"><i
+                                class="fa-solid fa-cart-shopping"></i></a>
                     </div>
                 </div>
                 <div class="p-4 border rounded-[10px] hover:shadow-lg transition">
-                    <img src="" alt="" class="h-52 bg-gray-200 rounded-[6px]">
+                    <img src="https://i.ibb.co.com/RyskBY5/bev.webp" alt=""
+                        class="w-full h-52 bg-gray-200 rounded-[6px]">
                     <div class="flex items-center justify-between mt-2">
                         <div>
-                            <h3 class="font-bold text-lg">Food Name Here</h3>
-                            <h3>Food Details Here</h3>
+                            <h3 class="font-bold text-lg">Bevarage</h3>
+                            <h3>A beverage is any drinkable liquid, including water, juice, soda, coffee, and tea. It
+                                can be enjoyed for hydration, refreshment, or as part of a meal. With countless options
+                                available, beverages can cater to various tastes and preferences.</h3>
                         </div>
                         <i class="fa-regular fa-heart text-2xl px-5 text-gray-300 "></i>
                     </div>
                     <div class="flex items-center gap-2 mt-4">
-                        <a href="" class="text-orange  font-bold border hover:bg-orange hover:text-white transition border-orange rounded-[5px] text-center p-2 flex-grow ">$10 / Buy Now</a>
-                        <a href="" class="bg-orange block text-white px-6 py-2 rounded-[5px] hover:bg-[#f0621b] transition" ><i class="fa-solid fa-cart-shopping"></i></a>
+                        <a href=""
+                            class="text-orange  font-bold border hover:bg-orange hover:text-white transition border-orange rounded-[5px] text-center p-2 flex-grow ">$10
+                            / Buy Now</a>
+                        <a href=""
+                            class="bg-orange block text-white px-6 py-2 rounded-[5px] hover:bg-[#f0621b] transition"><i
+                                class="fa-solid fa-cart-shopping"></i></a>
                     </div>
                 </div>
                 <div class="p-4 border rounded-[10px] hover:shadow-lg transition">
-                    <img src="" alt="" class="h-52 bg-gray-200 rounded-[6px]">
+                    <img src="https://i.ibb.co.com/K7fF1Xt/sea.jpg" alt=""
+                        class="w-full h-52 bg-gray-200 rounded-[6px]">
                     <div class="flex items-center justify-between mt-2">
                         <div>
-                            <h3 class="font-bold text-lg">Food Name Here</h3>
-                            <h3>Food Details Here</h3>
+                            <h3 class="font-bold text-lg">Seafood</h3>
+                            <h3>Seafood refers to a variety of edible marine life, including fish, shellfish, and
+                                mollusks. Rich in nutrients and often considered a delicacy, it offers diverse flavors
+                                and cooking methods. Whether grilled, fried, or served raw, seafood is a popular choice
+                                for many cuisines around the world.</h3>
                         </div>
                         <i class="fa-regular fa-heart text-2xl px-5 text-gray-300 "></i>
                     </div>
                     <div class="flex items-center gap-2 mt-4">
-                        <a href="" class="text-orange  font-bold border hover:bg-orange hover:text-white transition border-orange rounded-[5px] text-center p-2 flex-grow ">$10 / Buy Now</a>
-                        <a href="" class="bg-orange block text-white px-6 py-2 rounded-[5px] hover:bg-[#f0621b] transition" ><i class="fa-solid fa-cart-shopping"></i></a>
+                        <a href=""
+                            class="text-orange  font-bold border hover:bg-orange hover:text-white transition border-orange rounded-[5px] text-center p-2 flex-grow ">$10
+                            / Buy Now</a>
+                        <a href=""
+                            class="bg-orange block text-white px-6 py-2 rounded-[5px] hover:bg-[#f0621b] transition"><i
+                                class="fa-solid fa-cart-shopping"></i></a>
                     </div>
                 </div>
                 <div class="p-4 border rounded-[10px] hover:shadow-lg transition">
-                    <img src="" alt="" class="h-52 bg-gray-200 rounded-[6px]">
+                    <img src="https://i.ibb.co.com/7NLJkhJ/pasta.jpg" alt=""
+                        class="w-full h-52 bg-gray-200 rounded-[6px]">
                     <div class="flex items-center justify-between mt-2">
                         <div>
-                            <h3 class="font-bold text-lg">Food Name Here</h3>
-                            <h3>Food Details Here</h3>
+                            <h3 class="font-bold text-lg">Pasta</h3>
+                            <h3>Pasta is a versatile and popular dish made from wheat flour and water, often shaped into
+                                various forms like spaghetti, penne, or fusilli. It can be served with a wide range of
+                                sauces, meats, and vegetables, making it suitable for countless recipes. Delicious and
+                                satisfying, pasta is a beloved staple in many cultures.</h3>
                         </div>
                         <i class="fa-regular fa-heart text-2xl px-5 text-gray-300 "></i>
                     </div>
                     <div class="flex items-center gap-2 mt-4">
-                        <a href="" class="text-orange  font-bold border hover:bg-orange hover:text-white transition border-orange rounded-[5px] text-center p-2 flex-grow ">$10 / Buy Now</a>
-                        <a href="" class="bg-orange block text-white px-6 py-2 rounded-[5px] hover:bg-[#f0621b] transition" ><i class="fa-solid fa-cart-shopping"></i></a>
+                        <a href=""
+                            class="text-orange  font-bold border hover:bg-orange hover:text-white transition border-orange rounded-[5px] text-center p-2 flex-grow ">$10
+                            / Buy Now</a>
+                        <a href=""
+                            class="bg-orange block text-white px-6 py-2 rounded-[5px] hover:bg-[#f0621b] transition"><i
+                                class="fa-solid fa-cart-shopping"></i></a>
                     </div>
                 </div>
                 <div class="p-4 border rounded-[10px] hover:shadow-lg transition">
-                    <img src="" alt="" class="h-52 bg-gray-200 rounded-[6px]">
+                    <img src="https://i.ibb.co.com/wzqFZk9/pizza.jpg" alt=""
+                        class="w-full h-52 bg-gray-200 rounded-[6px]">
                     <div class="flex items-center justify-between mt-2">
                         <div>
-                            <h3 class="font-bold text-lg">Food Name Here</h3>
-                            <h3>Food Details Here</h3>
+                            <h3 class="font-bold text-lg">Pizza</h3>
+                            <h3>Pizza is a beloved dish consisting of a round, flattened base topped with sauce, cheese,
+                                and a variety of ingredients like meats and vegetables. It's known for its delicious
+                                combination of flavors and textures, making it a popular choice for casual meals and
+                                gatherings. With endless topping possibilities, pizza caters to a wide range of tastes
+                                and preferences.</h3>
                         </div>
                         <i class="fa-regular fa-heart text-2xl px-5 text-gray-300 "></i>
                     </div>
                     <div class="flex items-center gap-2 mt-4">
-                        <a href="" class="text-orange  font-bold border hover:bg-orange hover:text-white transition border-orange rounded-[5px] text-center p-2 flex-grow ">$10 / Buy Now</a>
-                        <a href="" class="bg-orange block text-white px-6 py-2 rounded-[5px] hover:bg-[#f0621b] transition" ><i class="fa-solid fa-cart-shopping"></i></a>
+                        <a href=""
+                            class="text-orange  font-bold border hover:bg-orange hover:text-white transition border-orange rounded-[5px] text-center p-2 flex-grow ">$10
+                            / Buy Now</a>
+                        <a href=""
+                            class="bg-orange block text-white px-6 py-2 rounded-[5px] hover:bg-[#f0621b] transition"><i
+                                class="fa-solid fa-cart-shopping"></i></a>
                     </div>
                 </div>
                 <div class="p-4 border rounded-[10px] hover:shadow-lg transition">
-                    <img src="" alt="" class="h-52 bg-gray-200 rounded-[6px]">
+                    <img src="https://i.ibb.co.com/xLqR6nz/appetizers.jpg" alt=""
+                        class="w-full h-52 bg-gray-200 rounded-[6px]">
                     <div class="flex items-center justify-between mt-2">
                         <div>
-                            <h3 class="font-bold text-lg">Food Name Here</h3>
-                            <h3>Food Details Here</h3>
+                            <h3 class="font-bold text-lg">Appetizers</h3>
+                            <h3>Appetizers are small dishes served before a main meal to stimulate the appetite. They
+                                come in various forms, including dips, finger foods, and bites, often featuring a mix of
+                                flavors and textures. Appetizers are perfect for social gatherings, allowing guests to
+                                enjoy a variety of tastes while mingling.</h3>
                         </div>
                         <i class="fa-regular fa-heart text-2xl px-5 text-gray-300 "></i>
                     </div>
                     <div class="flex items-center gap-2 mt-4">
-                        <a href="" class="text-orange  font-bold border hover:bg-orange hover:text-white transition border-orange rounded-[5px] text-center p-2 flex-grow ">$10 / Buy Now</a>
-                        <a href="" class="bg-orange block text-white px-6 py-2 rounded-[5px] hover:bg-[#f0621b] transition" ><i class="fa-solid fa-cart-shopping"></i></a>
+                        <a href=""
+                            class="text-orange  font-bold border hover:bg-orange hover:text-white transition border-orange rounded-[5px] text-center p-2 flex-grow ">$10
+                            / Buy Now</a>
+                        <a href=""
+                            class="bg-orange block text-white px-6 py-2 rounded-[5px] hover:bg-[#f0621b] transition"><i
+                                class="fa-solid fa-cart-shopping"></i></a>
                     </div>
                 </div>
-            </section>
-        </div>
+            </div>
+        </section>
     </main>
 
-    <!-- ---------------------------------------
-                    FOOTER START  
-    -------------------------------------------->
+    <!-- footer -->
     <footer class="bg-dark">
         <div class="max-w-[1200px] md:flex md:gap-10 mx-auto px-4 text-white relative py-10">
             <div class="mb-5 md:max-w-96">
                 <h2 class="font-bold text-2xl"><span class="text-orange">FOOD</span>HOUSE</h2>
-                <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque aliquid alias quod enim? Adipisci sit tenetur cumque labore molestiae vel temporibus eligendi blanditiis corrupti ipsum voluptate, laudantium odit dignissimos eveniet.</p>
+                <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque aliquid alias quod enim?
+                    Adipisci sit tenetur cumque labore molestiae vel temporibus eligendi blanditiis corrupti ipsum
+                    voluptate, laudantium odit dignissimos eveniet.</p>
             </div>
             <nav class="flex flex-wrap justify-between md:flex-grow">
                 <div class="w-1/3 md:w-1/4 mb-4">
@@ -237,16 +309,15 @@
                 </div>
             </nav>
         </div>
-        <div class="py-5 bg-light-dark">
-            <div class="max-w-[1200px] mx-auto flex justify-center items-center text-white">
-                <p>Developed By <a href="#">Remesoft</a> @ 2023</p>
+        <div class="py-5 bg-[#E0E0E0]">
+            <div class="max-w-[1200px] mx-auto flex justify-center items-center text-black font-medium">
+                <p>Developed By <a href="#">Bytes Farabi</a> @ 2024</p>
             </div>
         </div>
     </footer>
 
-    <!-- ---------------------------------------
-                    SCRIPTS START  
-    -------------------------------------------->
+    <!--script-->
     <script src="js/script.js"></script>
 </body>
+
 </html>
