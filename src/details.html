@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Cart - Restaurant</title>
 </head>
+
 <body>
-    <!-- ---------------------------------------
-                    NAVBAR START  
-    -------------------------------------------->
+    <!-- nav --->
     <header class="bg-dark z-1">
         <div class="max-w-[1200px] mx-auto flex items-center px-4 py-2 text-white relative">
             <button id="hamburger" class="mr-2 md:hidden">
@@ -19,7 +21,8 @@
             <a class="flex-grow mt-2" href="#">
                 <img class="h-10" src="./images/logo.png" alt="Brand Logo">
             </a>
-            <nav id="menu" class="absolute md:static md:z-0 md:w-auto md:flex-grow bg-dark w-full bottom-0 z-[-1] pb-2 left-0">
+            <nav id="menu"
+                class="absolute md:static md:z-0 md:w-auto md:flex-grow bg-dark w-full bottom-0 z-[-1] pb-2 left-0">
                 <ul class="md:flex">
                     <li><a class="px-4 py-2 block active" href="index.html">Home</a></li>
                     <li><a class="px-4 py-2 block" href="category.html">Menu</a></li>
@@ -40,13 +43,12 @@
         </div>
     </header>
 
-    <!-- ---------------------------------------
-                    CONTENT START  
-    -------------------------------------------->
-    <main>
+    <!-- content -->
+    <main class="ml-5">
         <section class="py-10">
             <div class="w-full max-w-[1200px] mx-auto">
-                <a href="" class="inline-block px-6 py-2 border border-orange hover:bg-orange hover:text-white transition rounded-full text-orange">
+                <a href=""
+                    class="inline-block px-6 py-2 border border-orange hover:bg-orange hover:text-white transition rounded-full text-orange">
                     <i class="fa-solid fa-arrow-left-long mr-2"></i>
                     Back to Home
                 </a>
@@ -54,14 +56,21 @@
                     <img src="./images/pizza.jpg" alt="" class="w-full max-h-[350px] object-cover">
                     <div class="px-4">
                         <img src="./images/logo.png" alt="" class="hidden md:block h-16">
-                        <h1 class="font-bold text-4xl mb-2 md:text-[40px]">Product Name Here</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias rerum eos velit adipisci natus rem, distinctio cum nam maxime exercitationem, eius unde at quae. Adipisci voluptatem optio aspernatur officiis omnis.</p>
-                        <p class="font-bold text-xl text-slate-600 mt-2">Prouduct Charge : <span class="text-orange">370TK</span></p>
+                        <h1 class="font-bold text-4xl mb-2 md:text-[40px]">Pizza</h1>
+                        <p>Pizza is a beloved dish consisting of a round, flattened base topped with sauce, cheese,
+                            and a variety of ingredients like meats and vegetables. It's known for its delicious
+                            combination of flavors and textures, making it a popular choice for casual meals and
+                            gatherings. With endless topping possibilities, pizza caters to a wide range of tastes
+                            and preferences.</p>
+                        <p class="font-bold text-xl text-slate-600 mt-2">Offer Price : <span
+                                class="text-orange">320/-</span></p>
                         <a href="" class="inline-block px-6 py-2 bg-orange text-white rounded-full mt-4 mr-2">
                             <i class="fa-solid fa-cart-shopping mr-2"></i>
                             Add to Cart
                         </a>
-                        <a href="" class="inline-block px-6 py-2 border border-orange text-orange rounded-full mt-4 hover:bg-orange hover:text-white transition">Buy Now</a>
+                        <a href=""
+                            class="inline-block px-6 py-2 border border-orange text-orange rounded-full mt-4 hover:bg-orange hover:text-white transition">Buy
+                            Now</a>
                     </div>
                 </div>
             </div>
@@ -72,10 +81,11 @@
                 <div class="max-w-[700px] mt-10">
                     <div class="flex justify-between">
                         <div class="flex gap-3 items-center">
-                            <img src="" alt="" class=" h-10 w-10 rounded-full border-transparent bg-[#D9D9D9]">
+                            <img src="https://i.ibb.co.com/WzF4kT9/cheerful-brunette-business-woman-student-600nw-2246174263.webp"
+                                alt="" class=" h-10 w-10 rounded-full border-transparent bg-[#D9D9D9]">
                             <div>
-                                <h2 class="font-bold">Dwip Sarker</h2>
-                                <p class="text-sm">27/07/2027</p>
+                                <h2 class="font-bold">Minha</h2>
+                                <p class="text-sm">24/01/2024</p>
                             </div>
                         </div>
                         <div class="mb-2 text-sm text-orange">
@@ -86,15 +96,18 @@
                             <i class="fa-solid fa-star"></i>
                         </div>
                     </div>
-                    <p class="mt-2 text-slate-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam maiores id cumque nulla ut expedita, velit tempore sequi blanditiis! Cupiditate maiores sed sint reiciendis eius rerum inventore perferendis. Voluptate, debitis.</p>
+                    <p class="mt-2 text-slate-500">I ordered delivery, and it arrived so quickly! The food was still hot
+                        and fresh, and the quality was just as good as dining in. Highly recommend this place for both
+                        dine-in and delivery!</p>
                 </div>
                 <div class="max-w-[700px] mt-10">
                     <div class="flex justify-between">
                         <div class="flex gap-3 items-center">
-                            <img src="" alt="" class=" h-10 w-10 rounded-full border-transparent bg-[#D9D9D9]">
+                            <img src="https://i.ibb.co.com/bKmLsLk/depositphotos-616151086-stock-photo-portrait-corporate-woman-laptop-working.webp"
+                                alt="" class=" h-10 w-10 rounded-full border-transparent bg-[#D9D9D9]">
                             <div>
-                                <h2 class="font-bold">Dwip Sarker</h2>
-                                <p class="text-sm">27/07/2027</p>
+                                <h2 class="font-bold">SaDia Zaman</h2>
+                                <p class="text-sm">15/04/2024</p>
                             </div>
                         </div>
                         <div class="mb-2 text-sm text-orange">
@@ -105,15 +118,17 @@
                             <i class="fa-solid fa-star"></i>
                         </div>
                     </div>
-                    <p class="mt-2 text-slate-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam maiores id cumque nulla ut expedita, velit tempore sequi blanditiis! Cupiditate maiores sed sint reiciendis eius rerum inventore perferendis. Voluptate, debitis.</p>
+                    <p class="mt-2 text-slate-500">Great atmosphere, delicious food, and excellent service. The staff
+                        went above and beyond to make sure we had a memorable experience. I'll be coming back soon!</p>
                 </div>
                 <div class="max-w-[700px] mt-10">
                     <div class="flex justify-between">
                         <div class="flex gap-3 items-center">
-                            <img src="" alt="" class=" h-10 w-10 rounded-full border-transparent bg-[#D9D9D9]">
+                            <img src="https://i.ibb.co.com/TWHnFHN/handsome-corporate-man-real-estate-agent-assistant-smiling-hold-hands-together-how-may-i-help-you-sm.jpg"
+                                alt="" class=" h-10 w-10 rounded-full border-transparent bg-[#D9D9D9]">
                             <div>
-                                <h2 class="font-bold">Dwip Sarker</h2>
-                                <p class="text-sm">27/07/2027</p>
+                                <h2 class="font-bold">Sayma</h2>
+                                <p class="text-sm">15/05/2024</p>
                             </div>
                         </div>
                         <div class="mb-2 text-sm text-orange">
@@ -124,23 +139,25 @@
                             <i class="fa-solid fa-star"></i>
                         </div>
                     </div>
-                    <p class="mt-2 text-slate-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam maiores id cumque nulla ut expedita, velit tempore sequi blanditiis! Cupiditate maiores sed sint reiciendis eius rerum inventore perferendis. Voluptate, debitis.</p>
+                    <p class="mt-2 text-slate-500">Absolutely loved the food and the service! The flavors were amazing,
+                        and the staff was so friendly and attentive. This is definitely my new favorite spot in town!
+                    </p>
                 </div>
-                
+
 
             </div>
-            
+
         </section>
     </main>
 
-    <!-- ---------------------------------------
-                    FOOTER START  
-    -------------------------------------------->
+    <!-- footer -->
     <footer class="bg-dark">
         <div class="max-w-[1200px] md:flex md:gap-10 mx-auto px-4 text-white relative py-10">
             <div class="mb-5 md:max-w-96">
                 <h2 class="font-bold text-2xl"><span class="text-orange">FOOD</span>HOUSE</h2>
-                <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque aliquid alias quod enim? Adipisci sit tenetur cumque labore molestiae vel temporibus eligendi blanditiis corrupti ipsum voluptate, laudantium odit dignissimos eveniet.</p>
+                <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque aliquid alias quod enim?
+                    Adipisci sit tenetur cumque labore molestiae vel temporibus eligendi blanditiis corrupti ipsum
+                    voluptate, laudantium odit dignissimos eveniet.</p>
             </div>
             <nav class="flex flex-wrap justify-between md:flex-grow">
                 <div class="w-1/3 md:w-1/4 mb-4">
@@ -192,16 +209,15 @@
                 </div>
             </nav>
         </div>
-        <div class="py-5 bg-light-dark">
-            <div class="max-w-[1200px] mx-auto flex justify-center items-center text-white">
-                <p>Developed By <a href="#">Remesoft</a> @ 2023</p>
+        <div class="py-5 bg-[#E0E0E0]">
+            <div class="max-w-[1200px] mx-auto flex justify-center items-center text-black font-medium">
+                <p>Developed By <a href="#">Bytes Farabi</a> @ 2024</p>
             </div>
         </div>
     </footer>
 
-    <!-- ---------------------------------------
-                    SCRIPTS START  
-    -------------------------------------------->
+    <!-- script -->
     <script src="js/script.js"></script>
 </body>
+
 </html>
