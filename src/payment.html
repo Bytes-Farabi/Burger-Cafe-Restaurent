@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Products - Restaurant</title>
 </head>
+
 <body>
-    <!-- ---------------------------------------
-                    NAVBAR START  
-    -------------------------------------------->
+    <!-- nav -->
     <header class="bg-dark z-1">
         <div class="max-w-[1200px] mx-auto flex items-center px-4 py-2 text-white relative">
             <button id="hamburger" class="mr-2 md:hidden">
@@ -19,7 +21,8 @@
             <a class="flex-grow mt-2" href="#">
                 <img class="h-10" src="./images/logo.png" alt="Brand Logo">
             </a>
-            <nav id="menu" class="absolute md:static md:z-0 md:w-auto md:flex-grow bg-dark w-full bottom-0 z-[-1] pb-2 left-0">
+            <nav id="menu"
+                class="absolute md:static md:z-0 md:w-auto md:flex-grow bg-dark w-full bottom-0 z-[-1] pb-2 left-0">
                 <ul class="md:flex">
                     <li><a class="px-4 py-2 block active" href="index.html">Home</a></li>
                     <li><a class="px-4 py-2 block" href="category.html">Menu</a></li>
@@ -41,35 +44,37 @@
 
     </header>
 
-    <!-- ---------------------------------------
-                    CONTENT START  
-    -------------------------------------------->
-    <main class="my-20">
+    <!-- main -->
+    <main class="my-60 flex justify-center items-center ">
         <form class="shadow-lg max-w-[500px] mx-auto p-6 flex flex-col gap-5 items-start rounded-xl">
             <div class="justify-between flex w-full items-center">
                 <h1 class="font-bold text-lg">Payment Now</h1>
                 <i class="fa-solid fa-xmark"></i>
             </div>
-            
+
             <div class="px-4 py-2 bg-slate-100 flex items-center gap-2 rounded-md">
                 <input type="checkbox" id="cod" class="block h-4 w-4 accent-orange">
                 <label for="cod" class="font-bold">Cash on Delivery</label>
             </div>
             <div class="flex gap-4">
                 <input name="method" type="radio" id="bkash" class="peer/bkash hidden" checked>
-                <label for="bkash" class="border-2 border-transparent block rounded cursor-pointer peer-checked/bkash:border-orange">
+                <label for="bkash"
+                    class="border-2 border-transparent block rounded cursor-pointer peer-checked/bkash:border-orange">
                     <img src="./images/payment/bkash.png" alt="bkash">
                 </label>
                 <input name="method" type="radio" id="nogod" class="peer/nogod hidden">
-                <label for="nogod" class="border-2 border-transparent block rounded cursor-pointer peer-checked/nogod:border-orange">
+                <label for="nogod"
+                    class="border-2 border-transparent block rounded cursor-pointer peer-checked/nogod:border-orange">
                     <img src="./images/payment/nogod.png" alt="bkash">
                 </label>
                 <input name="method" type="radio" id="rocket" class="peer/rocket hidden">
-                <label for="rocket" class="border-2 border-transparent block rounded cursor-pointer peer-checked/rocket:border-orange">
-                    <img src="./images/payment/rocket.png" alt="rocket" >
+                <label for="rocket"
+                    class="border-2 border-transparent block rounded cursor-pointer peer-checked/rocket:border-orange">
+                    <img src="./images/payment/rocket.png" alt="rocket">
                 </label>
                 <input name="method" type="radio" id="visa" class="peer/visa hidden">
-                <label for="visa" class="border-2 border-transparent block rounded cursor-pointer peer-checked/visa:border-orange">
+                <label for="visa"
+                    class="border-2 border-transparent block rounded cursor-pointer peer-checked/visa:border-orange">
                     <img src="./images/payment/visa.png" alt="visa">
                 </label>
             </div>
@@ -77,75 +82,9 @@
         </form>
     </main>
 
-    <!-- ---------------------------------------
-                    FOOTER START  
-    -------------------------------------------->
-    <footer class="bg-dark">
-        <div class="max-w-[1200px] md:flex md:gap-10 mx-auto px-4 text-white relative py-10">
-            <div class="mb-5 md:max-w-96">
-                <h2 class="font-bold text-2xl"><span class="text-orange">FOOD</span>HOUSE</h2>
-                <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque aliquid alias quod enim? Adipisci sit tenetur cumque labore molestiae vel temporibus eligendi blanditiis corrupti ipsum voluptate, laudantium odit dignissimos eveniet.</p>
-            </div>
-            <nav class="flex flex-wrap justify-between md:flex-grow">
-                <div class="w-1/3 md:w-1/4 mb-4">
-                    <h3 class="text-orange font-bold">Product</h3>
-                    <ul>
-                        <li><a class="py-1 block hover:text-orange transition" href="#">Menu</a></li>
-                        <li><a class="py-1 block hover:text-orange transition" href="#">Category</a></li>
-                        <li><a class="py-1 block hover:text-orange transition" href="#">Reviews</a></li>
-                    </ul>
-                </div>
-                <div class="w-1/3 md:w-1/4 mb-4">
-                    <h3 class="text-orange font-bold">Company</h3>
-                    <ul>
-                        <li><a class="py-1 block hover:text-orange transition" href="#">About</a></li>
-                        <li><a class="py-1 block hover:text-orange transition" href="#">Careers</a></li>
-                        <li><a class="py-1 block hover:text-orange transition" href="#">Blog</a></li>
-                    </ul>
-                </div>
-                <div class="w-1/3 md:w-1/4 mb-4">
-                    <h3 class="text-orange font-bold ">Support</h3>
-                    <ul>
-                        <li><a class="py-1 block hover:text-orange transition" href="#">Contact Us</a></li>
-                    </ul>
-                </div>
-                <div class="w-full md:w-1/4 flex flex-col justify-start">
-                    <h3 class="text-orange font-bold">Reach us</h3>
-                    <ul class="flex gap-4">
-                        <li>
-                            <a class="py-1 block hover:text-orange" href="#">
-                                <i class="fa-brands fa-facebook transition"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="py-1 block hover:text-orange" href="#">
-                                <i class="fa-brands fa-instagram transition"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="py-1 block hover:text-orange" href="#">
-                                <i class="fa-brands fa-twitter transition"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="py-1 block hover:text-orange" href="#">
-                                <i class="fa-brands fa-youtube transition"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-        <div class="py-5 bg-light-dark">
-            <div class="max-w-[1200px] mx-auto flex justify-center items-center text-white">
-                <p>Developed By <a href="#">Remesoft</a> @ 2023</p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- ---------------------------------------
-                    SCRIPTS START  
-    -------------------------------------------->
+    
+    <!-- js -->
     <script src="js/script.js"></script>
 </body>
+
 </html>
