@@ -13,35 +13,48 @@
 
 <body>
     <!-- nav -->
-    <header class="bg-dark z-1">
-        <div class="max-w-[1200px] mx-auto flex items-center px-4 py-2 text-white relative">
-            <button id="hamburger" class="mr-2 md:hidden">
-                <i class="fa-solid fa-bars"></i>
-            </button>
-            <a class="flex-grow mt-2" href="#">
-                <img class="h-10" src="./images/logo.png" alt="Brand Logo">
-            </a>
-            <nav id="menu"
-                class="absolute md:static md:z-0 md:w-auto md:flex-grow bg-dark w-full bottom-0 z-[-1] pb-2 left-0">
-                <ul class="md:flex">
-                    <li><a class="px-4 py-2 block active" href="index.html">Home</a></li>
+    <header class="bg-black z-1">
+
+        <div class="navbar max-w-[1200px] mx-auto">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        <li><a class="px-4 py-2 block active" href="index.html">Home</a></li>
                     <li><a class="px-4 py-2 block" href="category.html">Menu</a></li>
                     <li><a class="px-4 py-2 block" href="products.html">All Product</a></li>
                     <li><a class="px-4 py-2 block" href="details.html">Most Popular</a></li>
                     <li><a class="px-4 py-2 block" href="cart.html">Your Cart</a></li>
                     <li><a class="px-4 py-2 block" href="payment.html">Payment</a></li>
-                </ul>
-            </nav>
-            <div class="flex items-center gap-4">
-                <a href="#">
-                    <i class="fa-regular fa-user"></i> Login
-                </a>
-                <a class="border px-4 py-1 rounded-full" href="#">
-                    Sign Up
+                    </ul>
+                </div>
+                <a class="flex-grow mt-2" href="#">
+                    <img class="h-10" src="./images/logo.png" alt="Brand Logo">
                 </a>
             </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="md:flex">
+                    <li><a class="px-4 py-2 block active" href="index.html">Home</a></li>
+                    <li><a class="px-4 py-2 block text-white" href="category.html">Menu</a></li>
+                    <li><a class="px-4 py-2 block text-white" href="products.html">All Product</a></li>
+                    <li><a class="px-4 py-2 block text-white" href="details.html">Most Popular</a></li>
+                    <li><a class="px-4 py-2 block text-white" href="cart.html">Your Cart</a></li>
+                    <li><a class="px-4 py-2 block text-white" href="payment.html">Payment</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end gap-5">
+                <a class="btn text-sm rounded-full bg-black text-white hover:bg-black border-none">Login<span><i class="fa-regular fa-user"></i></span></a>
+                <a class="btn text-sm rounded-full bg-black text-white hover:bg-black">Sign Up</a>
+            </div>
         </div>
-
+    
     </header>
 
     <!-- main -->
